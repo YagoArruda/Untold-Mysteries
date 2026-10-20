@@ -53,7 +53,7 @@
         }
     },
     "cards": {
-        "dataUrl": "https://valcur.github.io/TCG-Arena-MTG/MTGCards.json",
+        "dataUrl": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Cards_Untold.json",
         "cardBack": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/Modelo%20Fundo%20v1.0.png"
     }
 }
