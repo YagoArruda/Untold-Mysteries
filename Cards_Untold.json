@@ -1,16 +1,17 @@
 {
-  "cardId": {
+  "1": {
     "id": "1",
     "face": {
       "front": {
         "name": { "name": "Plinko das areias" },
-        "type": "blood",
+        "type": "Creature",
         "cost": 3,
         "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/Step%206.4.png"
       }
     },
     "name": "Plinko das areias",
-    "type": "blood",
+    "type": "Creature",
+    "Elements": "Sangue",
     "cost": 3
   }
 }
