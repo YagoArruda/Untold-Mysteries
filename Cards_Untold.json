@@ -1,36 +1,444 @@
+
 {
-  "1": {
-    "id": "1",
+  "002U": {
+    "id": "002U",
     "face": {
       "front": {
-        "name": {
-          "name": "Plinko das areias"
-        },
+        "name": { "name": "Faegir, O dragão de ferro" },
         "type": "Creature",
-        "cost": 3,
-        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/Step%206.4.png"
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/002U.png"
       }
     },
-    "name": "Plinko das areias",
+    "name": "Faegir, O dragão de ferro",
     "type": "Creature",
     "Elements": "Sangue",
-    "cost": 3
+    "cost": 5,
+    "extraStats": [5, 0, 0, 0, 0, 1, 5],
+    "subtypes": ["Dragão", "Fera"],
+    "rarity": "Rara",
+    "effect": "Quando a Cordilheira de Selianus entrar em campo recebe Regeneração permanentemente",
+    "flavorText": "Uma resistente criação da natureza, que habita a cordilheira de Selianus",
+    "author": "Yuri de Arruda Simões"
   },
-  "2": {
-    "id": "2",
+  "003U": {
+    "id": "003U",
     "face": {
       "front": {
-        "name": {
-          "name": "Pilko Pil"
-        },
+        "name": { "name": "Cordilheira de Selianus" },
+        "type": "Land",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/003U.png"
+      }
+    },
+    "name": "Cordilheira de Selianus",
+    "type": "Land",
+    "Elements": "Sangue",
+    "cost": 0,
+    "extraStats": [0, 0, 0, 0, 0, 0, 0],
+    "subtypes": ["Básico", "Montanha"],
+    "rarity": "Comum",
+    "effect": "Vire: Gere um de Sangue ou cause 2 de dano a uma criatura aliada e compre uma carta",
+    "author": "Yuri de Arruda Simões"
+  },
+  "006U": {
+    "id": "006U",
+    "face": {
+      "front": {
+        "name": { "name": "Fada" },
+        "type": "Creature",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/006U.png"
+      }
+    },
+    "name": "Fada",
+    "type": "Creature",
+    "Elements": "Sangue",
+    "cost": 1,
+    "extraStats": [1, 0, 0, 0, 0, 0, 1],
+    "subtypes": ["Fada", "Mago"],
+    "rarity": "Comum",
+    "effect": "Sacrificar: Recebe um de Sangue",
+    "author": "Yago de Arruda Simões"
+  },
+  "007U": {
+    "id": "007U",
+    "face": {
+      "front": {
+        "name": { "name": "Niilitch, O terror encarnado" },
         "type": "Creature",
         "cost": 7,
-        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/Step%206.4.png"
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/007U.png"
       }
     },
-    "name": "Pilko Pil",
+    "name": "Niilitch, O terror encarnado",
     "type": "Creature",
     "Elements": "Sangue",
-    "cost": 7
+    "cost": 7,
+    "extraStats": [5, 0, 0, 0, 0, 2, 7, 7],
+    "subtypes": ["Celestial"],
+    "rarity": "Lendária",
+    "effect": "Causa 4 de dano a uma criatura aliada com 4 ou mais de vida e exile todas as cartas no cemitério aliado",
+    "flavorText": "Você está prestes a descobrir o que é terror",
+    "author": "Yago de Arruda Simões"
+  },
+  "008U": {
+    "id": "008U",
+    "face": {
+      "front": {
+        "name": { "name": "Geenesh, Guardião do destino" },
+        "type": "Creature",
+        "cost": 7,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/008U.png"
+      }
+    },
+    "name": "Geenesh, Guardião do destino",
+    "type": "Creature",
+    "Elements": "Sangue",
+    "cost": 7,
+    "extraStats": [7, 0, 0, 0, 0, 0, 3, 8],
+    "subtypes": ["Celestial"],
+    "rarity": "Rara",
+    "effect": "{3 de Sangue}: Compre uma carta para cada carta que o adversário tiver a mais na mão. Final do turno: Exile da mão a mesma quantidade de cartas extras compradas; se não tiver o suficiente, receba um de dano por carta.",
+    "flavorText": "Até mesmo o destino tem um custo",
+    "author": "Yago de Arruda Simões"
+  },
+  "010U": {
+    "id": "010U",
+    "face": {
+      "front": {
+        "name": { "name": "Fera descontrolada" },
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/010U.png"
+      }
+    },
+    "name": "Fera descontrolada",
+    "type": "Creature",
+    "Elements": "Sangue",
+    "cost": 2,
+    "extraStats": [2, 0, 0, 0, 0, 0, 3, 4],
+    "subtypes": ["Fera"],
+    "rarity": "Comum",
+    "effect": "Fim do turno: Recebe um de dano",
+    "author": "Yago de Arruda Simões"
+  },
+  "011U": {
+    "id": "011U",
+    "face": {
+      "front": {
+        "name": { "name": "Enfurecer" },
+        "type": "Spell",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/011U.png"
+      }
+    },
+    "name": "Enfurecer",
+    "type": "Spell",
+    "Elements": "Sangue",
+    "cost": 1,
+    "extraStats": [1, 0, 0, 0, 0, 0],
+    "rarity": "Comum",
+    "effect": "Conceda Fera e +2/+0 a uma criatura",
+    "author": "Yago de Arruda Simões"
+  },
+  "012U": {
+    "id": "012U",
+    "face": {
+      "front": {
+        "name": { "name": "Empoderar" },
+        "type": "Spell",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/012U.png"
+      }
+    },
+    "name": "Empoderar",
+    "type": "Spell",
+    "Elements": "Sangue",
+    "cost": 0,
+    "extraStats": [0, 0, 0, 0, 0, 0],
+    "rarity": "Incomum",
+    "effect": "Cause um de dano a uma criatura e conceda +2/+0",
+    "author": "Yago de Arruda Simões"
+  },
+  "013U": {
+    "id": "013U",
+    "face": {
+      "front": {
+        "name": { "name": "O indomável da floresta" },
+        "type": "Creature",
+        "cost": 4,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/013U.png"
+      }
+    },
+    "name": "O indomável da floresta",
+    "type": "Creature",
+    "Elements": "Sangue",
+    "cost": 4,
+    "extraStats": [3, 0, 0, 0, 0, 1, 4, 3],
+    "subtypes": ["Fera"],
+    "rarity": "Rara",
+    "effect": "Início do turno: Me cause dois de dano e gere um de Sangue",
+    "author": "Yago de Arruda Simões"
+  },
+  "014U": {
+    "id": "014U",
+    "face": {
+      "front": {
+        "name": { "name": "Minvlod espreitador" },
+        "type": "Creature",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/014U.png"
+      }
+    },
+    "name": "Minvlod espreitador",
+    "type": "Creature",
+    "Elements": "Sangue",
+    "cost": 0,
+    "extraStats": [0, 0, 0, 0, 0, 0, 2, 2],
+    "subtypes": ["Fera"],
+    "rarity": "Comum",
+    "keywords": ["Ataque Rápido"],
+    "effect": "Cause dois de dano à sua integridade",
+    "flavorText": "Tudo tem um preço",
+    "author": "Yago de Arruda Simões"
+  },
+  "015U": {
+    "id": "015U",
+    "face": {
+      "front": {
+        "name": { "name": "Desangrar" },
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/015U.png"
+      }
+    },
+    "name": "Desangrar",
+    "type": "Spell",
+    "Elements": "Sangue",
+    "cost": 3,
+    "extraStats": [3, 0, 0, 0, 0, 0],
+    "rarity": "Rara",
+    "effect": "Cause um de dano a todas as criaturas aliadas, cause a mesma quantidade de dano total a uma criatura inimiga",
+    "author": "Yago de Arruda Simões"
+  },
+  "016U": {
+    "id": "016U",
+    "face": {
+      "front": {
+        "name": { "name": "Roedor sombrio" },
+        "type": "Creature",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/016U.png"
+      }
+    },
+    "name": "Roedor sombrio",
+    "type": "Creature",
+    "Elements": "Sangue",
+    "cost": 1,
+    "extraStats": [1, 0, 0, 0, 0, 0, 1, 1],
+    "subtypes": ["Fera"],
+    "rarity": "Comum",
+    "effect": "Sacrificar: Cause um de dano a uma criatura; se ela morrer e possuir Sacrificar, ative-o duas vezes",
+    "author": "Yago de Arruda Simões"
+  },
+  "017U": {
+    "id": "017U",
+    "face": {
+      "front": {
+        "name": { "name": "Correntes de sangue" },
+        "type": "Artifact",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/017U.png"
+      }
+    },
+    "name": "Correntes de sangue",
+    "type": "Artifact",
+    "Elements": "Sangue",
+    "cost": 2,
+    "extraStats": [2, 0, 0, 0, 0, 0, 1],
+    "rarity": "Comum",
+    "keywords": ["Vínculo"],
+    "effect": "A criatura vinculada se torna incapaz de defender, mas quando atacando seu poder de ataque é considerado dobrado",
+    "author": "Yago de Arruda Simões"
+  },
+  "018U": {
+    "id": "018U",
+    "face": {
+      "front": {
+        "name": { "name": "Pilar da caça" },
+        "type": "Monument",
+        "cost": 5,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/018U.png"
+      }
+    },
+    "name": "Pilar da caça",
+    "type": "Monument",
+    "Elements": "Sangue",
+    "cost": 5,
+    "extraStats": [5, 0, 0, 0, 0, 0],
+    "rarity": "Lendária",
+    "effect": "Fim do turno: Pague Sangue e cause um de dano em todos os inimigos com um de vida",
+    "author": "Yago de Arruda Simões"
+  },
+  "019U": {
+    "id": "019U",
+    "face": {
+      "front": {
+        "name": { "name": "Parasita de sangue" },
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/019U.png"
+      }
+    },
+    "name": "Parasita de sangue",
+    "type": "Spell",
+    "Elements": "Sangue",
+    "cost": 3,
+    "extraStats": [3, 0, 0, 0, 0, 0],
+    "rarity": "Incomum",
+    "keywords": ["Vínculo"],
+    "effect": "Enquanto vinculado, causa um de dano à criatura em que está vinculado toda vez que ela receber dano",
+    "author": "Yago de Arruda Simões"
+  },
+  "020U": {
+    "id": "020U",
+    "face": {
+      "front": {
+        "name": { "name": "Pequeno lobo" },
+        "type": "Creature",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/020U.png"
+      }
+    },
+    "name": "Pequeno lobo",
+    "type": "Creature",
+    "Elements": "Sangue",
+    "cost": 2,
+    "extraStats": [2, 0, 0, 0, 0, 0, 2, 2],
+    "subtypes": ["Fera"],
+    "rarity": "Comum",
+    "flavorText": "Todas as feras buscam o sangue",
+    "author": "Yago de Arruda Simões"
+  },
+  "021U": {
+    "id": "021U",
+    "face": {
+      "front": {
+        "name": { "name": "Rei das feras" },
+        "type": "Creature",
+        "cost": 6,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/021U.png"
+      }
+    },
+    "name": "Rei das feras",
+    "type": "Creature",
+    "Elements": "Sangue",
+    "cost": 6,
+    "extraStats": [6, 0, 0, 0, 0, 0, 4, 3],
+    "subtypes": ["Fera"],
+    "rarity": "Rara",
+    "keywords": ["Ataque Rápido", "Enjoo"],
+    "flavorText": "Todas obedecem a mim",
+    "author": "Yago de Arruda Simões"
+  },
+  "022U": {
+    "id": "022U",
+    "face": {
+      "front": {
+        "name": { "name": "Floresta profunda" },
+        "type": "Land",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/022U.png"
+      }
+    },
+    "name": "Floresta profunda",
+    "type": "Land",
+    "Elements": "Sangue",
+    "cost": 0,
+    "extraStats": [0, 0, 0, 0, 0, 0],
+    "subtypes": ["Básico", "Floresta"],
+    "rarity": "Comum",
+    "effect": "Vire: Gere um de Sangue",
+    "author": "Yago de Arruda Simões"
+  },
+  "023U": {
+    "id": "023U",
+    "face": {
+      "front": {
+        "name": { "name": "Praia do mar de sangue" },
+        "type": "Land",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/023U.png"
+      }
+    },
+    "name": "Praia do mar de sangue",
+    "type": "Land",
+    "Elements": "Sangue",
+    "cost": 0,
+    "extraStats": [0, 0, 0, 0, 0, 0],
+    "subtypes": ["Básico", "Praia"],
+    "rarity": "Comum",
+    "effect": "Vire: Gere um de Sangue",
+    "author": "Yago de Arruda Simões"
+  },
+  "024U": {
+    "id": "024U",
+    "face": {
+      "front": {
+        "name": { "name": "Pico da lua vermelha" },
+        "type": "Land",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/024U.png"
+      }
+    },
+    "name": "Pico da lua vermelha",
+    "type": "Land",
+    "Elements": "Sangue",
+    "cost": 0,
+    "extraStats": [0, 0, 0, 0, 0, 0],
+    "subtypes": ["Montanha"],
+    "rarity": "Comum",
+    "effect": "Vire: Gere um de Sangue ou cause 1 de dano a uma criatura aliada e gere dois de Sangue",
+    "author": "Yago de Arruda Simões"
+  },
+  "027U": {
+    "id": "027U",
+    "face": {
+      "front": {
+        "name": { "name": "Matilha Crescente" },
+        "type": "Fable",
+        "cost": 0,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/027U.png"
+      }
+    },
+    "name": "Matilha Crescente",
+    "type": "Fable",
+    "Elements": "Sangue",
+    "cost": 0,
+    "extraStats": [0, 0, 0, 0, 0, 0],
+    "rarity": "Comum",
+    "effect": "Início do turno: Se você controlar menos criaturas que seu oponente, compre uma carta",
+    "author": "Yago de Arruda Simões"
+  },
+  "028U": {
+    "id": "028U",
+    "face": {
+      "front": {
+        "name": { "name": "Caravela dos Céus" },
+        "type": "Creature",
+        "cost": 6,
+        "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/028U.png"
+      }
+    },
+    "name": "Caravela dos Céus",
+    "type": "Creature",
+    "Elements": "Sangue",
+    "cost": 6,
+    "extraStats": [0, 0, 0, 0, 0, 6, 4, 2],
+    "rarity": "Incomum",
+    "effect": "Ao entrar em campo: Coloque em campo um artefato de custo 2 ou menor",
+    "flavorText": "Os melhores comerciantes sempre escondem tesouros",
+    "author": "Yago de Arruda Simões"
   }
 }
