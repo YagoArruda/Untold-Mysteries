@@ -3,7 +3,9 @@
     "id": "1",
     "face": {
       "front": {
-        "name": { "name": "Plinko das areias" },
+        "name": {
+          "name": "Plinko das areias"
+        },
         "type": "Creature",
         "cost": 3,
         "image": "https://raw.githubusercontent.com/YagoArruda/Untold-Mysteries/main/Images/Step%206.4.png"
